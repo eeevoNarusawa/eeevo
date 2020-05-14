@@ -1,0 +1,226 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .marketing-catch {
+    background-image: url('../images/marketing_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 30vh;
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+    .our-service-ttl {
+      position: absolute;
+      bottom: -27px;
+      left: 10%;
+      font-size: 2.2rem;
+      font-family: $ttlFontFamily;
+      color: #fff;
+      background: $mainGreen;
+      padding: 12px 20px 12px 10px;
+      border-radius: 0 30px 30px 0;
+    }
+  }
+  .marketing-copy {
+    background-image: url('../images/black_gray.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    .marketing-copy-text {
+      width: 96%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 50px 0 40px;
+      color: #fff;
+      line-height: 26px;
+    }
+  }
+  .marketing-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    .marketing-cont {
+      width: calc(100% / 2);
+      .marketing-cont-media {
+        background-image: url('../images/marketing_media_bg.jpg');
+      }
+      .marketing-cont-ad {
+        background-image: url('../images/marketing_ad_bg.jpg');
+      }
+      .marketing-cont-influencer {
+        background-image: url('../images/marketing_influencer_bg.jpg');
+      }
+      .marketing-cont-press-release {
+        background-image: url('../images/marketing_press_release.jpg');
+      }
+      .marketing-cont-media,
+      .marketing-cont-ad,
+      .marketing-cont-influencer,
+      .marketing-cont-press-release {
+        width: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+        position: relative;
+        display: inline-block;
+        padding: 20vh 0;
+        color: #fff;
+        font-size: 6vw;
+        font-family: $ttlFontFamily;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        transition: all .5s;
+        &::before,
+        &::after {
+          position: absolute;
+          z-index: 2;
+          content: '';
+          width: 0;
+          height: 0;
+          border: 8px solid transparent;
+        }
+        &::before {
+          top: 0px;
+          left: 0px;
+        }
+        &::after {
+          bottom: 0px;
+          right: 0px;
+        }
+        &:hover {
+          color: $mainGreen;
+          opacity: .9;
+          -webkit-text-stroke: 1px #FFF;
+          text-stroke: 1px #FFF;
+        }
+        &:hover::before,
+        &:hover::after {
+          width: 100%;
+          height: 100%;
+        }
+        &:hover::before {
+          border-bottom-color: $mainGreen;
+          border-left-color: $mainGreen;
+          transition: height .3s, width .3s .3s;
+          box-sizing: border-box;
+        }
+        &:hover::after {
+          border-top-color: $mainGreen;
+          border-right-color: $mainGreen;
+          transition: height .3s, width .3s .3s;
+          box-sizing: border-box;
+        }
+      }//.marketing-cont-media, .marketing-cont-ad
+    }//.marketing-cont
+  }//.marketing-wrap
+}
+@media screen and (min-width: 992px) {
+  .marketing-catch {
+    background-image: url('../images/marketing_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 390px;
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+    .our-service-ttl {
+      position: absolute;
+      bottom: -33px;
+      left: 16%;
+      font-size: 3.2rem;
+      font-family: $ttlFontFamily;
+      color: #fff;
+      background: $mainGreen;
+      padding: 12px 30px 12px 20px;
+      border-radius: 0 30px 30px 0;
+    }
+  }
+  .marketing-copy {
+    background-image: url('../images/black_gray.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    .marketing-copy-text {
+      width: $pcContainer;
+      margin: 0 auto;
+      padding: 100px 0;
+      color: #fff;
+      line-height: 30px;
+    }
+  }
+  .marketing-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    .marketing-cont {
+      width: calc(100% / 2);
+      .marketing-cont-media {
+        background-image: url('../images/marketing_media_bg.jpg');
+      }
+      .marketing-cont-ad {
+        background-image: url('../images/marketing_ad_bg.jpg');
+      }
+      .marketing-cont-influencer {
+        background-image: url('../images/marketing_influencer_bg.jpg');
+      }
+      .marketing-cont-press-release {
+        background-image: url('../images/marketing_press_release.jpg');
+      }
+      .marketing-cont-media,
+      .marketing-cont-ad,
+      .marketing-cont-influencer,
+      .marketing-cont-press-release {
+        width: 100%;
+        background-size: cover;
+        background-position: 50% 50%;
+        position: relative;
+        display: inline-block;
+        padding: 200px 0;
+        color: #fff;
+        font-size: 6rem;
+        font-family: $ttlFontFamily;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        transition: all .5s;
+        &::before,
+        &::after {
+          position: absolute;
+          z-index: 2;
+          content: '';
+          width: 0;
+          height: 0;
+          border: 8px solid transparent;
+        }
+        &::before {
+          top: 0px;
+          left: 0px;
+        }
+        &::after {
+          bottom: 0px;
+          right: 0px;
+        }
+        &:hover {
+          color: $mainGreen;
+          opacity: .9;
+          -webkit-text-stroke: 1px #FFF;
+          text-stroke: 1px #FFF;
+        }
+        &:hover::before,
+        &:hover::after {
+          width: 100%;
+          height: 100%;
+        }
+        &:hover::before {
+          border-bottom-color: $mainGreen;
+          border-left-color: $mainGreen;
+          transition: height .3s, width .3s .3s;
+          box-sizing: border-box;
+        }
+        &:hover::after {
+          border-top-color: $mainGreen;
+          border-right-color: $mainGreen;
+          transition: height .3s, width .3s .3s;
+          box-sizing: border-box;
+        }
+      }//.marketing-cont-media, .marketing-cont-ad
+    }//.marketing-cont
+  }//.marketing-wrap
+}

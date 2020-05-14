@@ -1,0 +1,216 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .wakuwaku-catch {
+    background-image: url('../images/wakuwaku_catch.jpg');
+    background-size: cover;
+    background-position: 70% 50%;
+    height: 30vh;
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px #999;
+    z-index: 2;
+    .wakuwaku-ttl {
+      margin-top: 46px;
+      margin-right: 40%;
+      text-align: center;
+      img {
+        width: 200px;
+      }
+      h4 {
+        font-size: 2.5rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .wakuwaku-copy {
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #e6e7e8;
+    .wakuwaku-copy-ttl {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: $yellow;
+      display: table;
+      margin-top: -60px;
+      margin-left: -15%;
+      h2 {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 2.4rem;
+        font-weight: bold;
+        padding-right: 20px;
+        width: 206px;
+      }
+      .fa-caret-right {
+        font-size: 7.4rem;
+        color: #51a341;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .wakuwaku-copy-text {
+      width: 90%;
+      margin: 0 auto;
+      max-width: 600px;
+      line-height: 28px;
+      margin-top: -80px;
+    }
+  }//wakuwaku-copy
+  .wakuwaku-client {
+    width: 94%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px 0;
+    .wakuwaku-client-ttl {
+      text-align: center;
+      font-size: 3.5rem;
+    }
+    .wakuwaku-client-copy {
+      margin: 20px 0;
+    }
+    .wakuwaku-client-logo {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        width: calc(94% / 3);
+        margin: 0 1% 12px;
+        height: 100%;
+      }
+    }
+  }
+  .wakuwaku-btn {
+    background: $mainGreen;
+    text-align: center;
+    color: #fff;
+    .wakuwaku-btn-before {
+      background: $mainGreen;
+      font-size: 3rem;
+      padding: 30px 0px;
+      font-weight: bold;
+      img {
+        width: 200px;
+        margin-left: 20px;
+      }
+    }
+    figcaption {
+      background: #51a341!important;
+      .wakuwaku-btn-after {
+        background: #51a341;
+        font-size: 60px;
+        margin-top: -10px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .wakuwaku-catch {
+    background-image: url('../images/wakuwaku_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 390px;
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px #999;
+    z-index: 2;
+    .wakuwaku-ttl {
+      margin-top: 150px;
+      margin-right: 40%;
+      text-align: center;
+      img {
+        width: 200px;
+      }
+      h4 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .wakuwaku-copy {
+    width: $pcContainer;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    border-bottom: 4px solid #e6e7e8;
+    .wakuwaku-copy-ttl {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: $yellow;
+      display: table;
+      margin-top: -60px;
+      h2 {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 2.4rem;
+        font-weight: bold;
+        padding-right: 20px;
+        width: 206px;
+      }
+      .fa-caret-right {
+        font-size: 7.4rem;
+        color: #51a341;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .wakuwaku-copy-text {
+      width: 660px;
+      line-height: 28px;
+      margin-top: 60px;
+      p {
+        width: 500px;
+        margin: 0 80px;
+      }
+    }
+  }//wakuwaku-copy
+  .wakuwaku-client {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+    .wakuwaku-client-ttl {
+      text-align: center;
+      font-size: 3.5rem;
+    }
+    .wakuwaku-client-copy {
+      margin: 30px 0;
+      text-align: center;
+    }
+    .wakuwaku-client-logo {
+      display: flex;
+      flex-wrap: wrap;
+      img {
+        width: 23%;
+        margin: 0 1% 8px;
+      }
+    }
+  }
+  .wakuwaku-btn {
+    background: $mainGreen;
+    text-align: center;
+    color: #fff;
+    .wakuwaku-btn-before {
+      background: $mainGreen;
+      font-size: 3rem;
+      padding: 30px 0px;
+      font-weight: bold;
+      img {
+        width: 200px;
+        margin-left: 20px;
+      }
+    }
+    figcaption {
+      background: #51a341!important;
+      .wakuwaku-btn-after {
+        background: #51a341;
+        font-size: 60px;
+        margin-top: -10px;
+      }
+    }
+  }
+}

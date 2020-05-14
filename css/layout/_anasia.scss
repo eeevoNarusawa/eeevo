@@ -1,0 +1,96 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .anasia-catch {
+    background-image: url('../images/anasia_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 30vh;
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px #ff8d14;
+    z-index: 2;
+    .anasia-ttl {
+      margin-top: 46px;
+      margin-left: 22%;
+      text-align: center;
+      img {
+        width: 160px;
+      }
+      h4 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .anasia-btn {
+    background: $mainGreen;
+    text-align: center;
+    color: #fff;
+    .anasia-btn-before {
+      background: $mainGreen;
+      font-size: 3rem;
+      padding: 30px 0px;
+      font-weight: bold;
+      img {
+        width: 110px;
+        margin-left: 20px;
+      }
+    }
+    figcaption {
+      background: #51a341!important;
+      .anasia-btn-after {
+        background: #51a341;
+        font-size: 60px;
+        margin-top: -10px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .anasia-catch {
+    background-image: url('../images/anasia_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 390px;
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px #ff8d14;
+    z-index: 2;
+    .anasia-ttl {
+      margin-top: 90px;
+      margin-left: 24%;
+      text-align: center;
+      img {
+        width: 240px;
+      }
+      h4 {
+        font-size: 4.5rem;
+        // font-weight: bold;
+      }
+    }
+  }
+  .anasia-btn {
+    background: $mainGreen;
+    text-align: center;
+    color: #fff;
+    .anasia-btn-before {
+      background: $mainGreen;
+      font-size: 3rem;
+      padding: 30px 0px;
+      font-weight: bold;
+      img {
+        width: 110px;
+        margin-left: 20px;
+      }
+    }
+    figcaption {
+      background: #51a341!important;
+      .anasia-btn-after {
+        background: #51a341;
+        font-size: 60px;
+        margin-top: -10px;
+      }
+    }
+  }
+
+}

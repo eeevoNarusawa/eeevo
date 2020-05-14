@@ -1,0 +1,164 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .ad_agency-catch {
+    background-image: url('../images/ad_agency_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 30vh;
+    width: 100%;
+    margin-top: 80px;
+    .ad_agency-ttl {
+      font-size: 6rem;
+      color: #fff;
+      font-family: $ttlFontFamily;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 43px;
+    }
+  }
+  .ad_agency-copy {
+    background-image: url('../images/black_gray.jpg');
+    background-size: cover;
+    background-position: 20% 50%;
+    margin-bottom: 20px;
+    .ad_agency-copy-text {
+      width: 96%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px 0;
+      color: #fff;
+      line-height: 26px;
+    }
+  }
+  .ad_agency-wrap {
+    background: #f1f2f2;
+    margin-bottom: 60px;
+    .ad_agency-cont {
+      width: 96%;
+      max-width: 600px;
+      margin: 0 auto;
+      background: #fff;
+      box-shadow: 14px 0px 15px 0px #999, -14px 0px 15px 0px #999;
+      border-bottom: 8px solid #000;
+      box-sizing: border-box;
+      padding: 20px 4%;
+      .ad_agency-cont-ttl {
+        text-align: center;
+        h2 {
+          font-family: $ttlFontFamily;
+          font-size: 3.8rem;
+          text-align: center;
+          font-weight: bold;
+          display: inline;
+          position: relative;
+          margin: 0 auto;
+          &:before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -10px; /*下線の上下位置調整*/
+            display: inline-block;
+            width: 80px; /*下線の幅*/
+            height: 6px; /*下線の太さ*/
+            -moz-transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translate(-50%); /*位置調整*/
+            background: #826199; /*下線の色*/
+          }
+        }
+      }
+      .ad_agency-cont-details {
+        line-height: 28px;
+        margin-top: 40px;
+        strong {
+          color: #0061af;
+        }
+      }
+    }//.ad_agency-cont
+  }//.ad_agency-wrap
+  .ad_agency-inquiry {
+    background: #e6e7e8;
+  }
+}
+@media screen and (min-width: 992px) {
+  .ad_agency-catch {
+    background-image: url('../images/ad_agency_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 390px;
+    width: 100%;
+    margin-top: 80px;
+    .ad_agency-ttl {
+      font-size: 6rem;
+      color: #fff;
+      font-family: $ttlFontFamily;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 160px;
+    }
+  }
+  .ad_agency-copy {
+    background-image: url('../images/black_gray.jpg');
+    background-size: cover;
+    background-position: 20% 50%;
+    margin-bottom: 20px;
+    .ad_agency-copy-text {
+      width: $pcContainer;
+      margin: 0 auto;
+      padding: 100px 0;
+      color: #fff;
+      line-height: 30px;
+    }
+  }
+  .ad_agency-wrap {
+    background: #f1f2f2;
+    margin-bottom: 100px;
+    .ad_agency-cont {
+      width: $pcContainer;
+      margin: 0 auto;
+      background: #fff;
+      box-shadow: 14px 0px 15px 0px #999, -14px 0px 15px 0px #999;
+      border-bottom: 8px solid #000;
+      box-sizing: border-box;
+      padding: 47px;
+      .ad_agency-cont-ttl {
+        text-align: center;
+        h2 {
+          font-family: $ttlFontFamily;
+          font-size: 4rem;
+          text-align: center;
+          font-weight: bold;
+          display: inline;
+          position: relative;
+          margin: 0 auto;
+          &:before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -10px; /*下線の上下位置調整*/
+            display: inline-block;
+            width: 80px; /*下線の幅*/
+            height: 6px; /*下線の太さ*/
+            -moz-transform: translateX(-50%);
+            -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            transform: translate(-50%); /*位置調整*/
+            background: #826199; /*下線の色*/
+          }
+        }
+      }
+      .ad_agency-cont-details {
+        line-height: 28px;
+        margin-top: 40px;
+        strong {
+          color: #0061af;
+        }
+      }
+    }//.ad_agency-cont
+  }//.ad_agency-wrap
+  .ad_agency-inquiry {
+    background: #e6e7e8;
+  }
+
+}

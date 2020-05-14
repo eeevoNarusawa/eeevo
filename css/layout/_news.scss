@@ -1,0 +1,219 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  // .news-catch {
+  //   background-image: url('../images/news_catch.jpg');
+  //   background-size: cover;
+  //   background-position: 50% 50%;
+  //   height: 30vh;
+  //   width: 100%;
+  //   margin-top: 74px;
+  // }
+  .news-wrap {
+    background: #252122;
+    margin-top: 108px;
+    .news-ttl {
+      font-size: 4rem;
+      text-align: center;
+      color: #1ebce3;
+      padding: 12px 0;
+      border-bottom: 2px solid #fff;
+    }
+    .tabs {
+      margin-top : 20px;
+      .tabs-ttl {
+        margin-left: 5%;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 2.2rem;
+        font-weight: bold;
+      }
+    }
+    /*タブのスタイル*/
+    .tab_item {
+      width: 150px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 20px;
+      line-height: 50px;
+      text-align: center;
+      display: block;
+      float: left;
+      margin: 0 0 20px 20px;
+      text-align: center;
+      font-weight: bold;
+      color: #414042;
+      transition: all 0.2s ease;
+      &:hover {
+        background: #f8ee53;
+        cursor: pointer;
+      }
+    }
+    /*ラジオボタンを全て消す*/
+    input[name="tab_item"] {
+      display: none;
+    }
+    /*タブ切り替えの中身のスタイル*/
+    .tab_content {
+      display: none;
+      padding: 20px 4%;
+      clear: both;
+      overflow: hidden;
+      background: #fff;
+      .tab_content_description {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    }
+    /*選択されているタブのコンテンツのみを表示*/
+    #all:checked ~ #all_content,
+    #programming:checked ~ #programming_content {
+      display: block;
+    }
+    /*選択されているタブのスタイルを変える*/
+    .tabs input:checked + .tab_item {
+      background-color: #f8ee53;
+    }
+    .news-cont {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #000;
+      pointer-events: none;
+      transition: 1s;
+      &:hover {
+        border-bottom: 1px solid $mainGreen;
+        color: $mainGreen;
+      }
+      .news-cont-date {
+        width: 100%;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .news-cont-ttl {
+        width: 100%;
+        a {
+          color: #000;
+          pointer-events: auto;
+          transition: .3s;
+          &:hover {
+            color: $mainGreen;
+          }
+        }
+      }
+    }//.news-cont
+  }//.news-wrap
+}
+@media screen and (min-width: 992px) {
+  // .news-catch {
+  //   background-image: url('../images/news_catch.jpg');
+  //   background-size: cover;
+  //   background-position: 50% 50%;
+  //   height: 390px;
+  //   width: 100%;
+  //   margin-top: 80px;
+  // }
+  .news-wrap {
+    margin-top: 80px;
+    background: #252122;
+    .news-ttl {
+      font-size: 6rem;
+      text-align: center;
+      color: #1ebce3;
+      padding: 12px 0;
+      border-bottom: 2px solid #fff;
+    }
+
+    /*タブ切り替え全体のスタイル*/
+    .tabs {
+      margin-top : 40px;
+      .tabs-ttl {
+        float: left;
+        color: #fff;
+        height: 50px;
+        line-height: 50px;
+        margin-right: 50px;
+        margin-left: 180px;
+        font-size: 2.2rem;
+        font-weight: bold;
+      }
+    }
+    /*タブのスタイル*/
+    .tab_item {
+      width: 150px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 20px;
+      line-height: 50px;
+      text-align: center;
+      display: block;
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 40px;
+      text-align: center;
+      font-weight: bold;
+      color: #414042;
+      transition: all 0.2s ease;
+    }
+      .tab_item:hover {
+        background: #f8ee53;
+        cursor: pointer;
+      }
+    /*ラジオボタンを全て消す*/
+    input[name="tab_item"] {
+      display: none;
+    }
+    /*タブ切り替えの中身のスタイル*/
+    .tab_content {
+      display: none;
+      padding: 60px 40px 30px;
+      clear: both;
+      overflow: hidden;
+      background: #fff;
+      .tab_content_description {
+        width: $pcContainer;
+        margin: 0 auto;
+      }
+    }
+    /*選択されているタブのコンテンツのみを表示*/
+    #all:checked ~ #all_content,
+    #programming:checked ~ #programming_content {
+      display: block;
+    }
+    /*選択されているタブのスタイルを変える*/
+    .tabs input:checked + .tab_item {
+      background-color: #f8ee53;
+    }
+    .news-cont {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      padding-bottom: 18px;
+      border-bottom: 1px solid #000;
+      pointer-events: none;
+      transition: 1s;
+      &:hover {
+        border-bottom: 1px solid $mainGreen;
+        color: $mainGreen;
+      }
+      .news-cont-date {
+        width: 160px;
+      }
+      .news-cont-ttl {
+        width: 800px;
+        a {
+          color: #000;
+          pointer-events: auto;
+          transition: .3s;
+          &:hover {
+            color: $mainGreen;
+          }
+        }
+      }
+    }
+  }//.news-wrap
+
+
+
+}//@media

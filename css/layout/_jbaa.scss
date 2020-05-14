@@ -1,0 +1,318 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .jbaa-catch {
+    background-image: url('../images/jbaa_catch.jpg');
+    background-size: cover;
+    background-position: 0 50%;
+    height: 30vh;
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px #999;
+    z-index: 2;
+    .jbaa-sp-catch-wrap {
+      position: relative;
+      width: 98%;
+      max-width: 600px;
+      margin: 0 auto;
+      .jbaa-catch-textImg {
+        position: absolute;
+        left: 0;
+        width: 40%;
+      }
+      .jbaa-ttl {
+        margin-top: 24px;
+        margin-left: 40%;
+        text-align: center;
+        img {
+          width: 200px;
+        }
+        h4 {
+          font-size: 1.5rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }//.jbaa-catch
+  .jbaa-copy {
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    .wakuwaku-copy-ttl {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: $yellow;
+      display: table;
+      margin-top: -60px;
+      margin-left: -15%;
+      h2 {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 2.4rem;
+        font-weight: bold;
+        padding-right: 20px;
+        width: 206px;
+      }
+      .fa-caret-right {
+        font-size: 7.4rem;
+        color: #51a341;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .wakuwaku-copy-text {
+      width: 90%;
+      margin: 0 auto;
+      max-width: 600px;
+      line-height: 28px;
+      margin-top: -80px;
+    }
+  }//wakuwaku-copy
+  .jbaa-cont-ttl {
+    font-size: $spTtlFontSize;
+    span {
+      color: $mainGreen;
+    }
+  }
+  .jbaa-training {
+    background: #f6f6f6;
+    padding: 30px 0;
+    .jbaa-training-ttl {
+      text-align: center;
+    }
+    p {
+      width: 94%;
+      max-width: 600px;
+      margin: 24px auto;
+    }
+    .jbaa-training-img {
+      width: 94%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+  .jbaa-exam {
+    background-image: url('../images/jbaa_exam.jpg');
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    .jbaa-sp-exam-bg {
+      background: rgba(255,255,255,.5);
+      width: 100%;
+      padding: 50px 0;
+      .jbaa-cont {
+        width: 94%;
+        max-width: 600px;
+        margin: 0 auto;
+        p {
+          width: 94%;
+          max-width: 600px;
+          margin: 20px auto 0;
+          line-height: 24px;
+        }
+      }
+    }
+  }//.jbaa-exam
+  .jbaa-text {
+    background: #f6f6f6;
+    padding: 30px 0 40px;
+    .jbaa-cont {
+      img {
+        width: 80%;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+      }
+      .jbaa-text-wrap {
+        width: 94%;
+        max-width: 600px;
+        margin: 0 auto;
+        p {
+          margin-top: 12px;
+          line-height: 30px;
+        }
+      }
+    }
+  }//.jbaa-text
+  .jbaa-btn {
+    background: $mainGreen;
+    text-align: center;
+    color: #fff;
+    .jbaa-btn-before {
+      background: $mainGreen;
+      font-size: 3rem;
+      padding: 30px 0px;
+      font-weight: bold;
+      img {
+        width: 150px;
+        margin-left: 20px;
+      }
+    }
+    figcaption {
+      background: #51a341!important;
+      .jbaa-btn-after {
+        background: #51a341;
+        font-size: 60px;
+        margin-top: -10px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .jbaa-catch {
+    background-image: url('../images/jbaa_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 330px;
+    width: 100%;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px #999;
+    z-index: 2;
+    position: relative;
+    .jbaa-catch-textImg {
+      position: absolute;
+      top: 30px;
+      left: 0;
+      width: 28%;
+      min-width: 330px;
+      margin-left: 15%;
+    }
+    .jbaa-ttl {
+      margin-top: 60px;
+      margin-left: 460px;
+      text-align: center;
+      img {
+        width: 200px;
+      }
+      h4 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .jbaa-copy {
+    width: $pcContainer;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    .wakuwaku-copy-ttl {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: $yellow;
+      display: table;
+      margin-top: -60px;
+      h2 {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: right;
+        font-size: 2.4rem;
+        font-weight: bold;
+        padding-right: 20px;
+        width: 206px;
+      }
+      .fa-caret-right {
+        font-size: 7.4rem;
+        color: #51a341;
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+    .wakuwaku-copy-text {
+      width: 660px;
+      line-height: 28px;
+      margin-top: 60px;
+      p {
+        width: 500px;
+        margin: 0 80px;
+      }
+    }
+  }//jbaa-copy
+  .jbaa-cont-ttl {
+    font-size: 4rem;
+    span {
+      color: $mainGreen;
+    }
+  }
+  .jbaa-training {
+    background: #f6f6f6;
+    padding: 70px 0;
+    .jbaa-training-ttl {
+      text-align: center;
+    }
+    p {
+      width: 800px;
+      margin: 24px auto;
+    }
+    .jbaa-training-img {
+      width: 800px;
+      margin: 0 auto;
+    }
+  }
+  .jbaa-exam {
+    padding: 100px 0;
+    background-image: url('../images/jbaa_exam.jpg');
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    .jbaa-cont {
+      width: 800px;
+      margin: 0 auto;
+      p {
+        width: 50%;
+        margin-top: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+  .jbaa-text {
+    background: #f6f6f6;
+    padding: 70px 0;
+    .jbaa-cont {
+      width: 800px;
+      margin: 0 auto;
+      display: table;
+      img {
+        width: 460px;
+      }
+      .jbaa-text-wrap {
+        width: 300px;
+        margin-left: 40px;
+        display: table-cell;
+        vertical-align: middle;
+        p {
+          margin-top: 20px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .jbaa-btn {
+    background: $mainGreen;
+    text-align: center;
+    color: #fff;
+    .jbaa-btn-before {
+      background: $mainGreen;
+      font-size: 3rem;
+      padding: 30px 0px;
+      font-weight: bold;
+      img {
+        width: 150px;
+        margin-left: 20px;
+      }
+    }
+    figcaption {
+      background: #51a341!important;
+      .jbaa-btn-after {
+        background: #51a341;
+        font-size: 60px;
+        margin-top: -10px;
+      }
+    }
+  }
+
+
+
+}

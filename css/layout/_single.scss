@@ -1,0 +1,75 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .single-wrap {
+    width: 94%;
+    margin: 0 auto;
+    padding: 20px 0;
+    .single-ttl {
+      border-top: 4px solid #a7a9ac;
+      border-bottom: 1px solid #a7a9ac;
+      padding: 8px 0 12px;
+      font-size: $spTtlFontSize;
+    }
+    .single-date {
+      border-bottom: 1px solid #a7a9ac;
+      padding: 12px;
+    }
+    .single-conts {
+      border-bottom: 1px solid #a7a9ac;
+      padding: 20px 0;
+      line-height: 24px;
+      p {
+        margin-bottom: 14px;
+      }
+      h2 {
+        font-size: 2.4rem;
+        line-height: 1.6;
+        margin: 32px 0 12px;
+      }
+      strong {
+        font-weight: bold;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .single-wrap {
+    width: $pcContainer;
+    margin: 0 auto;
+    padding: 40px 0;
+    .single-ttl {
+      border-top: 4px solid #a7a9ac;
+      border-bottom: 1px solid #a7a9ac;
+      padding: 8px 20px 12px;
+      font-size: $pcSubFontSize;
+    }
+    .single-date {
+      border-bottom: 1px solid #a7a9ac;
+      padding: 20px;
+    }
+    .single-conts {
+      border-bottom: 1px solid #a7a9ac;
+      padding: 32px 20px;
+      p {
+        margin-bottom: 14px;
+      }
+      h2 {
+        font-size: $spTtlFontSize;
+        margin: 32px 0 12px;
+      }
+      strong {
+        font-weight: bold;
+      }
+      img {
+        width: inherit;
+        height: inherit;
+      }
+    }
+  }
+
+
+}

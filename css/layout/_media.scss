@@ -1,0 +1,318 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .media-catch {
+    background-image: url('../images/media_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 30vh;
+    width: 100%;
+    margin-top: 80px;
+    .media-ttl {
+      font-size: 6rem;
+      color: #fff;
+      font-family: $ttlFontFamily;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 43px;
+    }
+  }
+  .media-copy {
+    background-image: url('../images/black_gray.jpg');
+    background-size: cover;
+    background-position: 80% 50%;
+    margin-bottom: 20px;
+    .media-copy-text {
+      width: 96%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px 0;
+      color: #fff;
+      line-height: 26px;
+    }
+  }
+  .media-wrap {
+    padding: 20px 0;
+    .media-conts {
+      .media-conts-ttl {
+        width: 60%;
+        max-width: 300px;
+        margin: 0 auto 12px;
+      }
+      .media-conts-ttl-text {
+        margin-bottom: 12px;
+        text-align: center;
+        font-size: $spTtlFontSize;
+      }
+      .media-cont {
+        max-width: 600px;
+        margin: 0 auto;
+        .media-img-bg {
+          width: 90%;
+          max-width: 400px;
+          margin: 0 auto;
+          padding: 16px 0;
+          .media-img {
+            width: 110%;
+            margin-left: -5%;
+            box-shadow: 0 0 10px 5px #999;
+          }
+        }
+        .mnavi-bg,
+        .influencer-network-bg {
+          background: #0094aa;
+        }
+        .gomalaysia-bg,
+        .ar-bg {
+          background: #e32d6e;
+        }
+        .media-cont-desc {
+          width: 94%;
+          margin: 12px auto;
+          line-height: 24px;
+          .media-cont-btn {
+            position: relative;
+            display: inline-block;
+            padding: 12px 32px;
+            margin: 14px 0;
+            border: 2px solid #fff;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            outline: none;
+            transition: all .2s;
+            &::before,
+            &::after {
+              position: absolute;
+              z-index: 2;
+              content: '';
+              width: 0;
+              height: 0;
+              border: 2px solid transparent;
+            }
+            &::before {
+              top: -2px;
+              left: -2px;
+            }
+            &::after {
+              bottom: -2px;
+              right: -2px;
+            }
+            &:hover {
+              &::before,
+              &::after {
+                width: 100%;
+                height: 100%;
+              }
+              &::before {
+                transition: height .2s, width .2s .2s;
+              }
+              &::after {
+                transition: height .2s .4s, width .2s .6s;
+              }
+            }
+          }//media-cont-btn
+          .mnavi-btn {
+            color: #0094aa;
+            &:hover {
+              color: #303380;
+              &::before {
+                border-bottom-color: #303380;
+                border-left-color: #303380;
+              }
+              &::after {
+                border-top-color: #303380;
+                border-right-color: #303380;
+              }
+            }
+          }
+          .gomalaysia-btn {
+            color: #e32d6e;
+            &:hover {
+              color: #f79523;
+              &::before {
+                border-bottom-color: #f79523;
+                border-left-color: #f79523;
+              }
+              &::after {
+                border-top-color: #f79523;
+                border-right-color: #f79523;
+              }
+            }
+          }
+          .margin-bottom {
+            margin-bottom: 16px;
+          }
+        }//.media-cont-desc
+      }
+    }
+  }
+  .media-inquiry {
+    background: #e6e7e8;
+  }
+}
+@media screen and (min-width: 992px) {
+  .media-catch {
+    background-image: url('../images/media_catch.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 390px;
+    width: 100%;
+    margin-top: 80px;
+    .media-ttl {
+      font-size: 6rem;
+      color: #fff;
+      font-family: $ttlFontFamily;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 160px;
+    }
+  }
+  .media-copy {
+    background-image: url('../images/black_gray.jpg');
+    background-size: cover;
+    background-position: 80% 50%;
+    margin-bottom: 20px;
+    .media-copy-text {
+      width: $pcContainer;
+      margin: 0 auto;
+      padding: 100px 0;
+      color: #fff;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+  .media-wrap {
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px;
+    .media-conts {
+      width: $pcContainer;
+      margin: 0 auto;
+      padding: 70px 0;
+      .media-conts-ttl {
+        width: 300px;
+        margin-bottom: 12px;
+        font-size: $pcSubFontSize;
+      }
+      .media-conts-ttl-text {
+        margin-bottom: 12px;
+        font-size: $pcSubFontSize;
+      }
+      .media-cont {
+        border-top: 4px solid #000;
+        border-bottom: 4px solid #000;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        .media-img-bg {
+          width: 400px;
+          margin-right: 80px;
+          position: relative;
+          .media-img {
+            position: absolute;
+            top: 20px;
+            left: -20px;
+            width: 440px;
+            box-shadow: 0 0 10px 5px #999;
+          }
+        }
+        .mnavi-bg {
+          background: #0094aa;
+          min-height: 450px;
+        }
+        .gomalaysia-bg {
+          background: #e32d6e;
+          min-height: 400px;
+        }
+        .influencer-network-bg {
+          background: #0094aa;
+          min-height: 350px;
+        }
+        .ar-bg {
+          background: #e32d6e;
+          height: 330px;
+        }
+        .media-cont-desc {
+          width: 420px;
+          line-height: 30px;
+          padding: 40px 0 0;
+          .media-cont-btn {
+            position: relative;
+            display: inline-block;
+            padding: 12px 32px;
+            margin: 14px 0;
+            border: 2px solid #fff;
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            outline: none;
+            transition: all .2s;
+            &::before,
+            &::after {
+              position: absolute;
+              z-index: 2;
+              content: '';
+              width: 0;
+              height: 0;
+              border: 2px solid transparent;
+            }
+            &::before {
+              top: -2px;
+              left: -2px;
+            }
+            &::after {
+              bottom: -2px;
+              right: -2px;
+            }
+            &:hover {
+              &::before,
+              &::after {
+                width: 100%;
+                height: 100%;
+              }
+              &::before {
+                transition: height .2s, width .2s .2s;
+              }
+              &::after {
+                transition: height .2s .4s, width .2s .6s;
+              }
+            }
+          }//media-cont-btn
+          .mnavi-btn {
+            color: #0094aa;
+            &:hover {
+              color: #303380;
+              &::before {
+                border-bottom-color: #303380;
+                border-left-color: #303380;
+              }
+              &::after {
+                border-top-color: #303380;
+                border-right-color: #303380;
+              }
+            }
+          }
+          .gomalaysia-btn {
+            color: #e32d6e;
+            &:hover {
+              color: #f79523;
+              &::before {
+                border-bottom-color: #f79523;
+                border-left-color: #f79523;
+              }
+              &::after {
+                border-top-color: #f79523;
+                border-right-color: #f79523;
+              }
+            }
+          }
+          .margin-bottom {
+            margin-bottom: 20px;
+          }
+        }//.media-cont-desc
+      }
+    }
+  }//.media-wrap
+  .media-inquiry {
+    background: #e6e7e8;
+  }
+}

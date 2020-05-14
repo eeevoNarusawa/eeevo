@@ -1,0 +1,21 @@
+// main: ../default.scss
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,900|Poppins:400,900|Roboto+Slab:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,900&display=swap&subset=japanese');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Righteous');
+// ==============================================================
+// Setting
+// ==============================================================
+
+$mainGreen: #8bc51f;
+$subGreen: #42641f;
+$yellow: #ffe17f;
+$ttlFontFamily: 'Roboto Slab', serif;
+$specialFont: 'Poppins', sans-serif;
+$jpFontFamily: 'Noto Sans JP', sans-serif;
+$pcFontSize: 6rem;
+$pcSubFontSize: 4.5rem;
+$spTtlFontSize: 3.2rem;
+$pcContainer: 960px;
+$maxWitdh: 600px;

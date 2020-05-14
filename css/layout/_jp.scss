@@ -1,0 +1,69 @@
+// main: ../default.scss
+.JP {
+  .page-inquiry-ttl,
+  .ad_agency-cont-ttl h2 {
+    font-family: $jpFontFamily!important;
+  }
+  .wakuwaku-copy-ttl {
+    h2 {
+      width: 186px!important;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .JP {
+    .top-slider-wrap {
+      height: 252px!important;
+    }
+    .media-conts-ttl-text {
+      font-size: 2.5rem!important;
+    }
+    .page-inquiry-ttl {
+      font-size: 2.8rem!important;
+    }
+    .ad_agency-cont-ttl {
+      h2 {
+        font-size: 3rem!important;
+      }
+      .jp-sp-ad_agency-cont-ttl {
+        font-size: 2.1rem!important;
+      }
+    }
+    .wakuwaku-ttl {
+      margin-right: 0!important;
+    }
+    .sp-jp-bg {
+      background: rgba(255,255,255,.4);
+    }
+    .jbaa-exam-ttl,
+    .jbaa-text-ttl,
+    .jbaa-text-wrap p {
+      text-align: center;
+    }
+    .group-cont p span {
+      font-weight: bold;
+    }
+    .our-team-cont-before h5 {
+      margin: 8px 12px!important;
+    }
+    .page-inquiry-form {
+      font-size: 1.8rem!important;
+    }
+    .group .group-wrap .group-wrap-area:before {
+      top: 11px;
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  .JP {
+    .page-inquiry-form {
+      font-size: 2rem!important;
+    }
+    .top-news-date {
+      margin-top: 5px;
+    }
+    .group .group-wrap .group-wrap-area:before {
+      top: 11px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+// main: ../default.scss
+@media screen and (max-width: 991px) {
+  .influencer-catch {
+    background-image: url('../images/marketing_influencer_bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 30vh;
+    width: 100%;
+    margin-top: 80px;
+    .ad_agency-ttl {
+      font-size: 6rem;
+      color: #fff;
+      font-family: $ttlFontFamily;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 43px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .influencer-catch {
+    background-image: url('../images/marketing_influencer_bg.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 390px;
+    width: 100%;
+    margin-top: 80px;
+    .ad_agency-ttl {
+      font-size: 6rem;
+      color: #fff;
+      font-family: $ttlFontFamily;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 160px;
+    }
+  }
+}
