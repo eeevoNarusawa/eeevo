@@ -155,26 +155,27 @@ Template Name: En about us template
         <div class="our-team-cont">
           <figure class="imghvr-hinge-down">
             <div class="our-team-cont-before">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/jo.jpg" alt="Yuki Jo">
-              <h5>Yuki Jo</h5>
-              <p>Marketing Director</p>
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/sara.jpg" alt="Sara Yamazaki">
+              <h5>Sara Yamazaki</h5>
+              <p>Sales Manager</p>
               <div class="our-team-cont-before-logo">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.svg" alt="eeevo">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/anasia_clear.svg" alt="AN Asia">
               </div>
             </div>
             <figcaption>
               <div class="our-team-cont-after">
                 <div class="our-team-cont-after-flex">
                   <div class="our-team-cont-after-flex-name">
-                    <h5>Yuki Jo</h5>
-                    <p>Marketing Director</p>
+                      <h5>Sara Yamazaki</h5>
+                      <p>Sales Manager</p>
                   </div>
-                  <div class="our-team-cont-after-flex-img jo"></div>
+                  <div class="our-team-cont-after-flex-img sara"></div>
                 </div>
                 <div class="our-team-cont-after-profile">
-                  After graduated from university, first joined at a leading mail order company.
-                  After did career change in a leading advertising company as a head of sales of Japan market and a head of business of China market, experienced various fields from business start-up to monetarization strategy.
-                  Joined eeevo to challenge overseas market.
+                    In 2015, after graduated from university, I travelling to Malaysia and started my career here.<br>
+                    With my working experience in Malaysia and life in the country, I am working as Consultant cum Sales for Japanese job seekers and clients.<br>
+                    My favourite Malaysia’s food are Bak Kut Teh and Chili Pan Mee.
                 </div>
               </div>
             </figcaption>

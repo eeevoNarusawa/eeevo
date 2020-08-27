@@ -28,7 +28,7 @@
     <div class="top-slider-cont top-slider3">
       <div class="sp-top-slider-img sp-top-slider3"></div>
       <div class="top-slider-wrap">
-        <div class="top-slider-ttl"><h3>Web<br>Devolopment</h3></div>
+        <div class="top-slider-ttl"><h3>Web<br>Development</h3></div>
         <div class="top-slider-desc">
           <p>- Website production -</p>
           <p>From multilingual website production</p>
@@ -79,7 +79,7 @@
     <div class="top-slider-cont top-slider3">
       <div class="sp-top-slider-img sp-top-slider3"></div>
       <div class="top-slider-wrap">
-        <div class="top-slider-ttl"><h3>Web<br>Devolopment</h3></div>
+        <div class="top-slider-ttl"><h3>Web<br>Development</h3></div>
         <div class="top-slider-desc">
           <p>- Website production -</p>
           <p>From multilingual website production</p>
@@ -119,7 +119,7 @@
     </a>
     <a href="<?php echo home_url(); ?>/development/">
       <div class="top-sub-slider-cont top-sub-slider3">
-        <div class="top-sub-slider-ttl"><h3>Web<br>Devolopment</h3></div>
+        <div class="top-sub-slider-ttl"><h3>Web<br>Development</h3></div>
       </div>
     </a>
     <a href="<?php echo home_url(); ?>/human_resource/">

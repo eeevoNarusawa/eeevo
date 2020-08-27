@@ -111,7 +111,7 @@
     </a>
     <a href="<?php echo home_url(); ?>/jpn/jp_development/">
       <div class="top-sub-slider-cont top-sub-slider3">
-        <div class="top-sub-slider-ttl"><h3>Web<br>Devolopment</h3></div>
+        <div class="top-sub-slider-ttl"><h3>Web<br>Development</h3></div>
       </div>
     </a>
     <a href="<?php echo home_url(); ?>/jpn/jp_human_resource/">

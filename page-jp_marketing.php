@@ -15,8 +15,8 @@
     <div class="marketing-cont">
       <a href="<?php echo home_url(); ?>/jpn/jp_marketing/jp_influencer/" class="marketing-cont-influencer">Influencer</a>
     </div>
-    <div class="marketing-cont">
+    <!-- <div class="marketing-cont">
       <a href="<?php echo home_url(); ?>/jpn/jp_marketing/jp_press_release/" class="marketing-cont-press-release">Press Release</a>
-    </div>
+    </div> -->
   </div>
 <?php get_footer('jp'); ?>

@@ -15,7 +15,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.min.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/default.css?20200421">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/default.css?20200827">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slick/slick.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/slick/slick-theme.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/imagehover.min.css">

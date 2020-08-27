@@ -152,25 +152,28 @@ Template Name: Jp about us template
         <div class="our-team-cont">
           <figure class="imghvr-hinge-down">
             <div class="our-team-cont-before">
-              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/jo.jpg" alt="Yuki Jo">
-              <h5>城 勇樹</h5>
-              <p>Marketing Director</p>
+              <img src="<?php bloginfo('stylesheet_directory'); ?>/images/sara.jpg" alt="Sara Yamazaki">
+              <h5>山﨑 さら</h5>
+              <p>Sales Manager</p>
               <div class="our-team-cont-before-logo">
                 <img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.svg" alt="eeevo">
+                <img src="<?php bloginfo('stylesheet_directory'); ?>/images/anasia_clear.svg" alt="AN Asia">
               </div>
             </div>
             <figcaption>
               <div class="our-team-cont-after">
                 <div class="our-team-cont-after-flex">
                   <div class="our-team-cont-after-flex-name">
-                    <h5>城 勇樹</h5>
-                    <p>Marketing Director</p>
+                    <h5>山﨑 さら</h5>
+                    <p>Sales Manager</p>
                   </div>
-                  <div class="our-team-cont-after-flex-img jo"></div>
+                  <div class="our-team-cont-after-flex-img sara"></div>
                 </div>
                 <div class="our-team-cont-after-profile">
-                  大学卒業後、大手通販会社から大手広告代理店に移り、日本マーケットの営業責任者、中国マーケットの事業責任者として事業立ち上げから収益化を経験。
-                  中国マーケットの立ち上げをするなかで更に広いマーケットに身を置きたいと考え、同社に入社。
+                    大学を卒業後、2015年に新卒でマレーシアに就職。<br>
+                    自身のマレーシアでの転職経験やマレーシア生活を活かして
+                    日本人求職者のコンサルタント兼営業を務める。<br>
+                    好きなマレーシア料理は肉骨茶とチリパンミー
                 </div>
               </div>
             </figcaption>
